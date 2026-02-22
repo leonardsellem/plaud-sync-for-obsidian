@@ -1,0 +1,10 @@
+{
+	"id": "plaud-sync",
+	"name": "Plaud Sync",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Sync Plaud recordings into Obsidian notes.",
+	"author": "Leonard Sellem",
+	"authorUrl": "https://github.com/leonardsellem",
+	"isDesktopOnly": false
+}
