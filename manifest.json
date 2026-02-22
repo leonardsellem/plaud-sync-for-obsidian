@@ -3,7 +3,7 @@
 	"name": "Plaud Sync",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Sync Plaud recordings into Obsidian notes.",
+	"description": "Sync Plaud voice recordings into Markdown notes with transcripts, AI summaries, and highlights.",
 	"author": "Leonard Sellem",
 	"authorUrl": "https://github.com/leonardsellem",
 	"isDesktopOnly": false

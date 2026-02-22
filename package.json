@@ -1,7 +1,7 @@
 {
 	"name": "obsidian-plaud-sync",
 	"version": "1.0.0",
-	"description": "Plaud Sync plugin for Obsidian",
+	"description": "Sync Plaud voice recordings into Markdown notes with transcripts, AI summaries, and highlights.",
 	"main": "main.js",
 	"type": "module",
 	"scripts": {
