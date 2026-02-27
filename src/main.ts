@@ -250,13 +250,15 @@ export default class PlaudSyncPlugin extends Plugin {
 					}
 				}
 			},
-			listMarkdownFiles: async (folder) => {
+			listMarkdownFiles: (folder) => {
 				const normalized = folder.replace(/\/+$/, '');
 				const prefix = `${normalized}/`;
-				return this.app.vault
-					.getMarkdownFiles()
-					.map((file) => file.path)
-					.filter((filePath) => filePath.startsWith(prefix));
+				return Promise.resolve(
+					this.app.vault
+						.getMarkdownFiles()
+						.map((file) => file.path)
+						.filter((filePath) => filePath.startsWith(prefix))
+				);
 			},
 			read: async (path) => {
 				return this.app.vault.cachedRead(this.requireFile(path));
